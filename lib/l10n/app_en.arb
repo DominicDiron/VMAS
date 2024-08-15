@@ -1,0 +1,27 @@
+{
+    "language": "English",
+    "@language": {
+        "description":  "The current language"
+    },
+
+    "helloworld": "Hello World!",
+    "@helloworld": {
+        "description":  "A programmer greeting"
+    },
+
+    "getStarted": "Get Started",
+    "@getStarted": {
+        "description":  "Getting started the app"
+    },
+
+    "hello": "Hello {username}",
+    "@hello": {
+        "description": "A welcome message",
+        "placeholders": {
+            "username": {
+            "type": "String"
+                }
+            }
+        }   
+
+}
